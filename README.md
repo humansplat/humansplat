@@ -8,7 +8,7 @@ Gaussian Splatting with Structure Priors</h1>
 
 <!-- <img src="assets/overview/humansplat.png" width="100%"/> -->
 
-<strong> TD;DR:  HumanSplat predicts 3D Gaussian Splatting properties from a single input image in a generalizable manner.</strong>
+<strong> HumanSplat predicts 3D Gaussian Splatting properties from a single input image in a generalizable manner.</strong>
 <!-- --- -->
 </div>
 
