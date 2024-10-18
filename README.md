@@ -6,7 +6,7 @@ Gaussian Splatting with Structure Priors</h1>
  [![Arxiv](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)]()  [![Project Page](https://img.shields.io/badge/HumanSplat-project-red?logo=googlechrome&logoColor=blue)](https://tosv.byted.org/obj/pico-tarball/paulpanwang/humansplat/index.html) [![Code](https://img.shields.io/badge/HumanSplat-Code-red?logo=googlechrome&logoColor=blue)]() [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](./LICENSE)
 
 
-<img src="assets/overview/humansplat.png" width="100%"/>
+<!-- <img src="assets/overview/humansplat.png" width="100%"/> -->
 
 <strong> TD;DR:  HumanSplat predicts 3D Gaussian Splatting properties from a single input image in a generalizable manner.</strong>
 <!-- --- -->
