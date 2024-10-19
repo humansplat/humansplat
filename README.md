@@ -42,12 +42,12 @@ pip3 install -r settings/requirements.txt
 
 ```bash
 
-python3 train.py --config xxx.yaml 
+python3 train.py --config configs/humansplat.yaml 
 ```
 
 ###  Run `./demo.py` 
 ```bash
-python3 eval.py --config xxx.yaml 
+python3 eval.py --config configs/humansplat.yaml 
 ```
 
 
