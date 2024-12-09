@@ -7,7 +7,7 @@ urle () { [[ "${1}" ]] || return 1; local LANG=C i x; for (( i = 0; i < ${#1}; i
 PROJ_DIR=$(pwd)
 DOWNLOAD_PATH="extensions/extensions/pixielib/HPS/pixie_data"
 
-echo -e "\nYou need to login https://icon.is.tue.mpg.de/ and register SMPL-X and PIXIE"
+echo -e "\nYou need to login https://pixie.is.tue.mpg.de/ &  https://smpl-x.is.tue.mpg.de/, and register SMPL-X and PIXIE"
 read -p "Username (SMPL-X):" username
 read -p "Password (SMPL-X):" password
 username=$(urle $username)
