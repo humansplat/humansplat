@@ -37,7 +37,7 @@ ${ROOT}
 
 ### 🔧  Installation
 
-Additionally dependencies include: 
+(1) Additionally dependencies include: 
 #### Register an username & password for [Website](https://icon.is.tue.mpg.de/) is required.
 
 ```bash
@@ -46,8 +46,7 @@ bash settings/fetch_hps.sh
 ```
 
 
-Additionally dependencies include: 
-
+(2) Install dependencies and setup the environment:
 ```bash
 bash settings/setup.sh
 ```
