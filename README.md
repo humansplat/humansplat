@@ -38,7 +38,7 @@ ${ROOT}
 ### 🔧  Installation
 
 (1) Additionally dependencies include: 
-#### Register an username & password for [Website](https://icon.is.tue.mpg.de/) is required.
+#### Register an username & password for [pixie](https://pixie.is.tue.mpg.de/index.html) and [SMPLX](https://smpl-x.is.tue.mpg.de/index.html)  is required.
 
 ```bash
 
