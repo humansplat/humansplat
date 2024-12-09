@@ -48,8 +48,10 @@ cfg.model.face_eye_mask_path = os.path.join(cfg.pixie_dir, "extensions/pixielib/
                                             "uv_face_eye_mask.png")
 cfg.model.tex_path = os.path.join(cfg.pixie_dir, "extensions/pixielib/HPS/pixie_data",
                                   "FLAME_albedo_from_BFM.npz")
+
 cfg.model.extra_joint_path = os.path.join(cfg.pixie_dir, "extensions/pixielib/HPS/pixie_data",
                                           "smplx_extra_joints.yaml")
+
 cfg.model.j14_regressor_path = os.path.join(cfg.pixie_dir, "extensions/pixielib/HPS/pixie_data",
                                             "SMPLX_to_J14.pkl")
 cfg.model.flame2smplx_cached_path = os.path.join(cfg.pixie_dir,

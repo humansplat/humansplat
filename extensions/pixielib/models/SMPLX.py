@@ -422,6 +422,7 @@ part_indices["head"] = np.array([
     136,
     137,
 ])
+
 part_indices["face"] = np.array([
     55,
     56,
@@ -899,6 +900,9 @@ class SMPLX(nn.Module):
                 batch_size, -1, -1, -1)
 
         shape_components = torch.cat([shape_params, expression_params], dim=1)
+
+        # print(global_pose.shape, body_pose.shape, jaw_pose.shape, eye_pose.shape, left_hand_pose.shape, right_hand_pose.shape)
+
         full_pose = torch.cat(
             [
                 global_pose,
@@ -910,8 +914,10 @@ class SMPLX(nn.Module):
             ],
             dim=1,
         )
+      
         template_vertices = self.v_template.unsqueeze(0).expand(
             batch_size, -1, -1)
+        
         # smplx
         vertices, joints = lbs(
             shape_components,
@@ -925,6 +931,7 @@ class SMPLX(nn.Module):
             dtype=self.dtype,
             pose2rot=False,
         )
+
         # face dynamic landmarks
         lmk_faces_idx = self.lmk_faces_idx.unsqueeze(dim=0).expand(
             batch_size, -1)
@@ -950,12 +957,7 @@ class SMPLX(nn.Module):
             final_joint_set.append(extra_joints)
         # Create the final joint set
         joints = torch.cat(final_joint_set, dim=1)
-        # if self.use_joint_regressor:
-        #     reg_joints = torch.einsum("ji,bik->bjk",
-        #                               self.extra_joint_regressor, vertices)
-        #     joints[:, self.source_idxs] = (
-        #         joints[:, self.source_idxs].detach() * 0.0 +
-        #         reg_joints[:, self.target_idxs] * 1.0)
+        # print(vertices.shape, landmarks.shape, joints.shape)
         return vertices, landmarks, joints
 
     def pose_abs2rel(self, global_pose, body_pose, abs_joint="head"):
