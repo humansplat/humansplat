@@ -28,8 +28,13 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.pkl
+*.npy
+*.npz
+*.obj
 
-*.tar
+
+pixie_model.tar
 *.zip
 
 # PyInstaller
@@ -138,4 +143,6 @@ download/*.json
 *.pt
 
 auto_commit.sh
+
+diff_gaussian_rasterization.egg-info
 
