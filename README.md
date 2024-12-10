@@ -10,7 +10,7 @@ Gaussian Splatting with Structure Priors</h1>
 </video> -->
 
 <img style="width:100%" src="data/assets/humansplat.png">
-
+<img style="width:100%" src="data/assets/humansplat.gif">
 
 <strong> HumanSplat predicts 3D Gaussian Splatting properties from a single input image in a generalizable manner.</strong>
 <!-- --- -->
@@ -37,25 +37,36 @@ ${ROOT}
 
 ### 🔧  Installation
 
-(1) Additionally dependencies include: 
+(1) Register an account and run `bash settings/fetch_hps.sh` 
 #### Register an username & password for [pixie](https://pixie.is.tue.mpg.de/index.html) and [SMPLX](https://smpl-x.is.tue.mpg.de/index.html)  is required.
 
 ```bash
-
 bash settings/fetch_hps.sh
 ```
 
 
-(2) Install dependencies and setup the environment:
+(2)Additionally install dependencies and setup the environment:
 ```bash
 bash settings/setup.sh
 ```
 
+####  HPS (Human Pose and Shape) Estimation
+<details>
+<summary> 🚀 HPS Usage</summary>
+
+
+```bash
+# init revebg, load pretrained models, and predict HPS
+python3 src/predit_hps.py
+```
+<img style="width:100%" src="data/assets/demo1_hps.png">
+
+</details>
 
 
 ###  Run `./demo.py` 
 ```bash
-python3 demo.py --config xxx.yaml 
+python3 demo.py --config configs/humansplat.yaml
 ```
 
 
