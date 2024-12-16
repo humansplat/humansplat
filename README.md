@@ -63,7 +63,7 @@ python3 src/predit_hps.py
 
 </details>
 
-## 🚀 Usage
+
 ###  Run `./demo.py` 
 ```bash
 python3 demo.py --config configs/humansplat.yaml
