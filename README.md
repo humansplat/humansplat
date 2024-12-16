@@ -63,16 +63,16 @@ python3 src/predit_hps.py
 
 </details>
 
+## 🚀 Usage
+### 
 
-###  Run `./demo.py` 
-```bash
-python3 demo.py --config configs/humansplat.yaml
-```
+The code has been recently tidied up for release and could perhaps contain bugs. Please feel free to open an issue.
+
 
 
 
 ## 📚 Citation
- If you find our work useful for your research, please consider citing:
+ If you find our work useful for your research, please consider citing and starring the repo ⭐. Thank you very much.
 ```bibtex
 @article{pan2024humansplat,
   title={HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors},
