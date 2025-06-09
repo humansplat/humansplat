@@ -49,7 +49,7 @@
 ## 🔥 See Also
 
 You may also be interested in our other works:
-- [**[arXiv 2506] PartCrafter**](https://wgsxm.github.io/projects/partcrafter): a 3D-native DiT that can directly generate 3D objects in multiple parts.
+- [**[arXiv 2506] PartCrafter**](https://github.com/wgsxm/PartCrafter): a 3D-native DiT that can directly generate 3D objects in multiple parts.
 - [**[ICLR 2025] DiffSplat**](https://github.com/chenguolin/DiffSplat): directly fine-tune a pretrained text-to-image diffusion model to generate general 3D objects.
 
 
