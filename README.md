@@ -1,7 +1,4 @@
-<div align="center">
-
-<h1>HumanSplat: Generalizable Single-Image Human</br>
-Gaussian Splatting with Structure Priors</h1>
+<h1>HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors</h1>
 
 <div class="is-size-6 publication-authors">
   <span class="author-block">
@@ -47,8 +44,6 @@ Gaussian Splatting with Structure Priors</h1>
 <img style="width:100%" src="data/assets/humansplat.png">
 
 <strong> HumanSplat predicts 3D Gaussian Splatting properties from a single input image in a generalizable manner.</strong>
-<!-- --- -->
-</div>
 
 
 ## 🔥 See Also
