@@ -49,6 +49,7 @@
 ## 🔥 See Also
 
 You may also be interested in our other works:
+- [**[arXiv 2507] MoVieS**](https://github.com/chenguolin/MoVieS): a feed-forward model for dynamic 3DGS reconstruction from monocular videos.
 - [**[arXiv 2506] PartCrafter**](https://github.com/wgsxm/PartCrafter): a 3D-native DiT that can directly generate 3D objects in multiple parts.
 - [**[ICLR 2025] DiffSplat**](https://github.com/chenguolin/DiffSplat): directly fine-tune a pretrained text-to-image diffusion model to generate general 3D objects.
 
